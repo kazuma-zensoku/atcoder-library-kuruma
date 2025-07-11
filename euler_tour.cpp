@@ -19,6 +19,7 @@ template<class T> using pq_g = priority_queue<T, vc<T>, greater<T>>;
 #define cout(n) cout<<n<<endl;
 
 // verify: https://atcoder.jp/contests/abc202/tasks/abc202_e
+// verify: https://atcoder.jp/contests/abc406/tasks/abc406_f
 struct Edge {long long to;};
 
 // LCA計算用セグメント木の型
