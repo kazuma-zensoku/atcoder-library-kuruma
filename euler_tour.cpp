@@ -29,10 +29,18 @@ S_rmq op_rmq(S_rmq a, S_rmq b){
 }
 S_rmq E_rmq(){return {(1LL << 60),-1LL};}
 
+ll op(ll a, ll b) {
+    return a + b; // 加算を行う
+}
+ll e() {
+    return 0; // 単位元は0
+}
+
 struct euler_tour {
     // 部分木クエリ用: in, outはオイラーツアーの入出時刻。node_depthは各頂点の深さ。
     vector<long long> in, out;
     vector<long long> node_depth;
+    segtree<ll, op, e> weight; // 部分木クエリ用の重み
     // LCA用: visitはオイラーツアーの頂点列、depth_tourは各ステップの深さ、first_occurrenceは各頂点の最初の訪問位置。
     vector<long long> visit, depth_tour, first_occurrence;
     atcoder::segtree<S_rmq, op_rmq, E_rmq> rmq;
@@ -49,6 +57,7 @@ struct euler_tour {
         out.assign(n, -1LL);
         node_depth.assign(n, -1LL);
         first_occurrence.assign(n, -1LL);
+        weight = segtree<ll, op, e>(n); // 部分木クエリ用の重みを初期化
     }
     // 無向辺を追加
     void add_edge(long long u, long long v){
@@ -101,45 +110,52 @@ struct euler_tour {
         long long lca_node = lca(u,v);
         return node_depth[u] + node_depth[v] - 2 * node_depth[lca_node];
     }
+    // 部分木クエリ: uの部分木にwを加算
+    void add_weight(long long u, long long w) {
+        weight.set(in[u], weight.get(in[u]) + w);
+    }
+    // 部分木クエリ: uの部分木の重みを取得
+    long long get_weight(long long u) {
+        return weight.prod(in[u], out[u]);
+    }
 };
 
-// 部分木クエリ例
-// int main() {
-//     ll N;
-//     cin >> N;
-//     euler_tour et(N);
-//     for (ll i = 1; i < N; ++i) {
-//         ll p;
-//         cin >> p;
-//         p--;
-//         et.add_edge(i, p);
-//     }
-//     et.build(0);
-//     vvc<P> nodes_by_depth(N);
-//     nrep(i, N){
-//         if(et.node_depth[i] != -1){
-//              nodes_by_depth[et.node_depth[i]].push_back({et.in[i], i});
-//         }
-//     }
-//     for(auto& v : nodes_by_depth) {
-//         sort(v.begin(), v.end());
-//     }
-//     ll Q;
-//     cin >> Q;
-//     while(Q--){
-//         ll u, d;
-//         cin >> u >> d;
-//         u--;
-//         ll target_depth = d;
-//         if (target_depth >= N || nodes_by_depth[target_depth].empty()) {
-//             cout(0);
-//             continue;
-//         }
-//         const auto& candidates = nodes_by_depth[target_depth];
-//         auto it_l = lower_bound(candidates.begin(), candidates.end(), P(et.in[u], -1));
-//         auto it_r = lower_bound(candidates.begin(), candidates.end(), P(et.out[u], -1));
-//         ll ans = distance(it_l, it_r);
-//         cout(ans);
-//     }
-//     return 0;
-// }
+int main() {
+    ll N;
+    cin >> N;
+    euler_tour et(N);
+    vc<P> edges(N-1);
+    nrep(i, N-1){
+        ll u, v;
+        cin >> u >> v;
+        u--; v--;
+        et.add_edge(u, v);
+        edges[i] = {u, v}; 
+    }
+    et.build(0);
+    nrep(i, N){
+        et.add_weight(i, 1); // 各頂点の部分木の初期重みを1に設定
+    }
+    ll Q;
+    cin >> Q;
+    while(Q--){
+        ll t;
+        cin >> t;
+        if(t == 1){
+            ll x, w;
+            cin >> x >> w;
+            x--;
+            et.add_weight(x, w);
+        } else if(t == 2){
+            ll y;
+            cin >> y;
+            y--;
+            auto [u, v] = edges[y];
+            if(et.in[u] > et.in[v]) swap(u, v); // uを常にinが小さい方に
+            ll weight_u = et.get_weight(0) - et.get_weight(v); 
+            ll weight_v = et.get_weight(v);
+            cout << abs(weight_u - weight_v) << endl; 
+        }
+    }
+    return 0;
+}
