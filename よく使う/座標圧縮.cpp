@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E5%BA%A7%E6%A8%99%E5%9C%A7%E7%B8%AE.cpp
 #include <iostream>
 #include <vector>
 #include <string>
@@ -42,6 +41,7 @@ template<class T> using pq_g = priority_queue<T, vc<T>, greater<T>>;//小さい�
 // avalは圧縮後の値の配列
 // resは元の配列の各要素が圧縮後の何番目に対応するかを示す配列
 // res[i].firstは元の配列のインデックス、res[i].secondは圧縮後のインデックス
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E5%BA%A7%E6%A8%99%E5%9C%A7%E7%B8%AE.cpp
 pair<vl, vc<P>> compress(vector<long long> &a) {
     vector<long long> aval;
     for (int i = 0; i < a.size(); ++i) aval.push_back(a[i]);

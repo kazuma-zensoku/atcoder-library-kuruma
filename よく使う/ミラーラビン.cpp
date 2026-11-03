@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%A9%E3%83%93%E3%83%B3.cpp
 #include <iostream>
 #include <vector>
 
@@ -24,6 +23,7 @@ long long pow_mod(long long a, long long b, long long m) {
 
 // ミラー・ラビン素数判定法
 // n が素数なら true, 合成数なら false を返す
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%83%9F%E3%83%A9%E3%83%BC%E3%83%A9%E3%83%93%E3%83%B3.cpp
 bool miller_rabin(long long n) {
     // コーナーケースの処理
     if (n < 2) return false;

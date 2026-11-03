@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/LIS_segtree.cpp
 #include <iostream>
 #include <vector>
 #include <string>
@@ -41,6 +40,7 @@ template<class T> using pq_g = priority_queue<T, vc<T>, greater<T>>;//小さい�
 ll op(ll a, ll b) { return max(a, b); }
 ll e() { return 0; }
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/LIS_segtree.cpp
 ll LIS(const vector<long long> &a) {
     ll N = a.size();
     // 座標圧縮

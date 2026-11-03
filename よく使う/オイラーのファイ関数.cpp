@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E9%96%A2%E6%95%B0.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace std;
@@ -20,6 +19,7 @@ template<class T> using pq_g = priority_queue<T, vc<T>, greater<T>>;//小さい�
 #define cout(n) cout<<n<<endl;
 ll N, M;
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E9%96%A2%E6%95%B0.cpp
 vector<int> euler_phi_table(int N) {
     std::vector<int> phi(N + 1);
     for (int i = 0; i <= N; ++i) {

@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%83%8A%E3%83%99%E3%82%A2%E3%83%84.cpp
 #ifndef ONLINE_JUDGE
 #define _GLIBCXX_DEBUG 
 #endif
@@ -181,6 +180,7 @@ using Result = array<mint, 3>;
 Result memo[509][2][3][2][1024];
 bool seen[509][2][3][2][1024];
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%83%8A%E3%83%99%E3%82%A2%E3%83%84.cpp
 Result solve(int pos, bool tight, int sum, bool is_leading_zero, int kinds) {
     // DEBUG(pos, tight, sum, is_leading_zero, kinds);
     if (pos == (int)S.length()) {

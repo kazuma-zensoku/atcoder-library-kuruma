@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/kruskal.cpp
 // https://qiita.com/drken/items/cce6fc5c579051e64fab
 #include <iostream>
 #include <vector>
@@ -43,6 +42,7 @@ struct Edge{
     ll from, to, cost;
 };
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/kruskal.cpp
 int main() {
     int N, M;
     cin >> N >> M;

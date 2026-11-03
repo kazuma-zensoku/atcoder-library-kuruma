@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/bit_reverse.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace std;
@@ -36,6 +35,7 @@ void ll2bit(ll n, ll k) {
     while(s.size() < k) s = '0' + s;
     cout << s << endl;
 }
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/bit_reverse.cpp
 ll bit_reverse(ll n, ll k) {
     ll res = 0;
     for (int i = 0; i < k; i++) {

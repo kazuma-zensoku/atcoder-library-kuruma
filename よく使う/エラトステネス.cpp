@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%82%A8%E3%83%A9%E3%83%88%E3%82%B9%E3%83%86%E3%83%8D%E3%82%B9.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace std;
@@ -20,6 +19,7 @@ template<class T> using pq_g = priority_queue<T, vc<T>, greater<T>>;//小さい�
 #define cout(n) cout<<n<<endl;
 ll N, M;
 ll ans;
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%82%A8%E3%83%A9%E3%83%88%E3%82%B9%E3%83%86%E3%83%8D%E3%82%B9.cpp
 vl sieve(ll MAX) {
     vector<bool> is_prime(MAX + 1, true);
     is_prime[0] = is_prime[1] = false;

@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/splaytree_value.cpp
 /*
     SplayTreeValue<T>  ---  値順（BST順）で管理するSplay木
 
@@ -55,6 +54,7 @@
 // is_multiset=trueでmultiset, falseでset
 
 template <typename T, bool is_multiset=false>
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/splaytree_value.cpp
 struct SplayTreeValue {
 private:
     struct Node {

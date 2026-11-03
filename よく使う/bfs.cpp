@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/bfs.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace atcoder;
@@ -21,6 +20,7 @@ vector<string> grid;
 int seen[59][59];
 int dist[59][59];
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/bfs.cpp
 int main() {
     cin>>r>>c>>sy>>sx>>gy>>gx;
     grid.resize(r);

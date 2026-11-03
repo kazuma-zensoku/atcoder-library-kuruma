@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/is_biprate.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace atcoder;
@@ -32,6 +31,7 @@ ll u[500009], v[500009];
 ll ans, edge_size;
 ll a[500009];
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/is_biprate.cpp
 bool is_bipartite(vvl &g, vl &color, ll v, ll c){
     bool res=true;
     color[v]=c;

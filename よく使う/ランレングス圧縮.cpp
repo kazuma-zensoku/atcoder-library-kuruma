@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%83%A9%E3%83%B3%E3%83%AC%E3%83%B3%E3%82%B0%E3%82%B9%E5%9C%A7%E7%B8%AE.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace std;
@@ -20,6 +19,7 @@ template<class T> using pq_g = priority_queue<T, vc<T>, greater<T>>;//小さい�
 #define cout(n) cout<<n<<endl;
 ll N, M;
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%83%A9%E3%83%B3%E3%83%AC%E3%83%B3%E3%82%B0%E3%82%B9%E5%9C%A7%E7%B8%AE.cpp
 vector<pair<char, ll>> encode(const string& str) {
     ll n = (ll)str.size();
     vector<pair<char, ll>> ret;

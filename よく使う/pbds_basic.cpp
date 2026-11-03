@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/pbds_basic.cpp
 #ifndef ONLINE_JUDGE
 #define _GLIBCXX_DEBUG 
 #endif
@@ -185,6 +184,7 @@ using namespace __gnu_pbds;
 // https://atcoder.jp/contests/abc459/submissions/76066432
 typedef tree<ll, null_type, less_equal<ll>, rb_tree_tag, tree_order_statistics_node_update> pbds; 
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/pbds_basic.cpp
 int main() {
     cin.tie(nullptr);
     ios_base::sync_with_stdio(false);

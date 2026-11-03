@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%82%B2%E3%83%BC%E3%83%A0.cpp
 #ifndef ONLINE_JUDGE
 #define _GLIBCXX_DEBUG 
 #endif
@@ -136,6 +135,7 @@ ll N, M, K;
 string S;
 vvl g;
 vvl memo;
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%82%B2%E3%83%BC%E3%83%A0.cpp
 bool dfs(ll depth, ll v) {
     if(depth == 2*K) {
         return S[v] == 'A';

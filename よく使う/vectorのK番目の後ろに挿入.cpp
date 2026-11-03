@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/vector%E3%81%AEK%E7%95%AA%E7%9B%AE%E3%81%AE%E5%BE%8C%E3%82%8D%E3%81%AB%E6%8C%BF%E5%85%A5.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace atcoder;
@@ -37,6 +36,7 @@ ll N, K, X;
 ll ans;
 
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/vector%E3%81%AEK%E7%95%AA%E7%9B%AE%E3%81%AE%E5%BE%8C%E3%82%8D%E3%81%AB%E6%8C%BF%E5%85%A5.cpp
 int main() {
 	cin.tie(nullptr);
 	ios_base::sync_with_stdio(false);

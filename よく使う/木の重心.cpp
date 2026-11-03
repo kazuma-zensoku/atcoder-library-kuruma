@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E6%9C%A8%E3%81%AE%E9%87%8D%E5%BF%83.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace atcoder;
@@ -22,6 +21,7 @@ ll N, M;
 string S;
 ll ans;
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E6%9C%A8%E3%81%AE%E9%87%8D%E5%BF%83.cpp
 vector<ll> Centroid(const vector<vector<ll>> &g) {
         int n = g.size();
         vector<ll> centroid;

@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E6%A1%81dp.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace std;
@@ -22,6 +21,7 @@ template<class T> using pq_g = priority_queue<T, vc<T>, greater<T>>;//小さい�
 string S; // N を文字列化したもの
 ll memo[20][2][11][2]; // pos, tight, prev is_leading_zero
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E6%A1%81dp.cpp
 ll solve(int pos, bool tight, int prev, bool is_leading_zero) {
     if (pos == S.length()) {
         return 1;

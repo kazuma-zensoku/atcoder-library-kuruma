@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/next%E9%85%8D%E5%88%97.cpp
 #include <iostream>
 #include <vector>
 #include <string>
@@ -6,6 +5,7 @@ using namespace std;
 // https://drken1215.hatenablog.com/entry/2021/10/10/195200 
 // res[i][c] := i 文字目以降で最初に文字 c が登場する index
 // 存在しないときは N
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/next%E9%85%8D%E5%88%97.cpp
 vector<vector<int> > calc_next(const string &S) {
     // 文字列 S の長さ
     int N = (int)S.size();

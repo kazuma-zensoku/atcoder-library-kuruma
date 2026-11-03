@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/dijkstra.cpp
 #ifndef ONLINE_JUDGE
 #define _GLIBCXX_DEBUG 
 #endif
@@ -140,6 +139,7 @@ struct edge {
     }
 };
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/dijkstra.cpp
 int main() {
     cin.tie(nullptr);
     ios_base::sync_with_stdio(false);

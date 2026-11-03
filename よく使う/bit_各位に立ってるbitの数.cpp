@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/bit_%E5%90%84%E4%BD%8D%E3%81%AB%E7%AB%8B%E3%81%A3%E3%81%A6%E3%82%8Bbit%E3%81%AE%E6%95%B0.cpp
 #ifndef ONLINE_JUDGE
 #define _GLIBCXX_DEBUG 
 #endif
@@ -132,6 +131,7 @@ void vv_cout(const vector<string>& v) {
     ********************************************************** ここまでテンプレ **********************************************************
 */
 ll N, M;
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/bit_%E5%90%84%E4%BD%8D%E3%81%AB%E7%AB%8B%E3%81%A3%E3%81%A6%E3%82%8Bbit%E3%81%AE%E6%95%B0.cpp
 ll f(ll val, ll K) {
     ll block_size = 1ll << (K + 1);
     ll block_num = val / block_size;

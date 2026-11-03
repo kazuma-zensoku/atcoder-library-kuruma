@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/list2matrix.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace std;
@@ -20,6 +19,7 @@ template<class T> using pq_g = priority_queue<T, vc<T>, greater<T>>;//小さい�
 #define cout(n) cout<<n<<endl;
 
 ll N, M;
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/list2matrix.cpp
 vvl list2matrix(vvl &a, ll N, ll M) {
     vvl g(N, vl(N, 0));
     nrep(i, N) {

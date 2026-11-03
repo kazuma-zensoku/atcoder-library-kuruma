@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E8%A1%8C%E5%88%97%E7%B4%AF%E4%B9%97.cpp
 // https://atcoder.jp/contests/abc293/editorial/5955
 
 #include <iostream>
@@ -21,6 +20,7 @@ vector<vector<ll>> mat_mul(vector<vector<ll>> a, vector<vector<ll>> b, ll mod) {
 	return res;
 }
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E8%A1%8C%E5%88%97%E7%B4%AF%E4%B9%97.cpp
 vector<vector<ll>> mat_pow(vector<vector<ll>> a, ll b, ll mod) {
 	// 行列累乗
 	int n = a.size();

@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E5%85%A8%E6%96%B9%E4%BD%8D%E6%9C%A8dp.cpp
 #ifndef ONLINE_JUDGE
 #define _GLIBCXX_DEBUG 
 #endif
@@ -133,6 +132,7 @@ void vv_cout(const vector<string>& v) {
 */
 ll N, M;
 template <class E, class V, E (*merge)(E, E), E (*e)(), E (*put_edge)(V, int), V (*put_vertex)(E, int)>
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E5%85%A8%E6%96%B9%E4%BD%8D%E6%9C%A8dp.cpp
 struct RerootingDP {
     struct edge {
         int to, idx, xdi;

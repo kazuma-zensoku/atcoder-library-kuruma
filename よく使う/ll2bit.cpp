@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/ll2bit.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace std;
@@ -26,6 +25,7 @@ ll POW(ll a, ll t) {
     return res;
 }
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/ll2bit.cpp
 void ll2bit(ll n, ll k) {
     string s = "";
     while(n > 0) {

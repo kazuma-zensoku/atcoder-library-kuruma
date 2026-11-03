@@ -1,7 +1,7 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E9%96%89%E8%B7%AF%E6%A4%9C%E5%87%BA_wqueue.cpp
 #include <bits/stdc++.h> 
 using namespace std; 
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E9%96%89%E8%B7%AF%E6%A4%9C%E5%87%BA_wqueue.cpp
 int main() {
     ios_base::sync_with_stdio(false); 
     cin.tie(nullptr);                 

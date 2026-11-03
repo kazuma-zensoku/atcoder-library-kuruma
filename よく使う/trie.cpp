@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/trie.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace std;
@@ -21,6 +20,7 @@ template<class T> using pq_g = priority_queue<T, vc<T>, greater<T>>;//小さい�
 ll N, M;
 
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/trie.cpp
 struct Trie {
 	vector<map<char,int>> to;
 	vector<ll> size;

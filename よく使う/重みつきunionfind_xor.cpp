@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E9%87%8D%E3%81%BF%E3%81%A4%E3%81%8Dunionfind_xor.cpp
 // https://qiita.com/drken/items/cce6fc5c579051e64fab
 #include <iostream>
 #include <vector>
@@ -44,6 +43,7 @@ struct edge{
 };
 
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E9%87%8D%E3%81%BF%E3%81%A4%E3%81%8Dunionfind_xor.cpp
 template<class Abel> struct UnionFind {
 	vector<int> par;
 	vector<int> rank;

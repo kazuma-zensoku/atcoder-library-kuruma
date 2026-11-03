@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%84%E3%82%A2%E3%83%BC%E9%87%8D%E3%81%BF%E3%81%AA%E3%81%97.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace std;
@@ -39,6 +38,7 @@ ll e() {
     return 0; // 単位元は0
 }
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC%E3%83%84%E3%82%A2%E3%83%BC%E9%87%8D%E3%81%BF%E3%81%AA%E3%81%97.cpp
 struct euler_tour {
     // 部分木クエリ用: in, outはオイラーツアーの入出時刻。node_depthは各頂点の深さ。
     vector<long long> in, out;

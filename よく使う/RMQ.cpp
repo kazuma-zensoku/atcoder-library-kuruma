@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/RMQ.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace atcoder;
@@ -19,6 +18,7 @@ int ans;
 int op(int a, int b){return max(a, b);}
 int e(){return 0;}
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/RMQ.cpp
 int main() {
 	cin.tie(nullptr);
 	ios_base::sync_with_stdio(false);

@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/splaytree_index.cpp
 /*
     SplayTreeSequence<T>  ---  可変長配列として使えるSplay木
 
@@ -29,6 +28,7 @@
 #include <functional>
 
 template <typename T>
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/splaytree_index.cpp
 struct SplayTreeSequence {
 private:
     struct Node {

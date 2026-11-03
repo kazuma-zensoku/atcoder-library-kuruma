@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E4%BA%8C%E6%AC%A1%E5%85%83imos%E3%81%A8%E4%BA%8C%E6%AC%A1%E5%85%83%E7%B4%AF%E7%A9%8D%E5%92%8C.cpp
 #ifndef ONLINE_JUDGE
 #define _GLIBCXX_DEBUG 
 #endif
@@ -135,6 +134,7 @@ ll N, M;
 const ll H = 2000;
 const ll W = 2000;
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E4%BA%8C%E6%AC%A1%E5%85%83imos%E3%81%A8%E4%BA%8C%E6%AC%A1%E5%85%83%E7%B4%AF%E7%A9%8D%E5%92%8C.cpp
 int main() {
     cin.tie(nullptr);
     ios_base::sync_with_stdio(false);

@@ -1,9 +1,9 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/unionfindMinLeader.cpp
 #include <vector>
 #include <numeric>      // std::iota のため
 #include <algorithm>    // std::swap, std::sort (groupsでソートする場合など)
 #include <map>          // groups の実装を簡単にするため
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/unionfindMinLeader.cpp
 struct UnionFindMinLeader {
     std::vector<int> parent; // 親ノード。自身が代表元の場合、parent[i] = i。
     std::vector<int> sz;     // 各代表元が持つ集合のサイズ（オプションだが便利）

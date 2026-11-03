@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/3%E6%AC%A1%E5%85%83%E7%B4%AF%E7%A9%8D%E5%92%8C.cpp
 #include <bits/stdc++.h>
 using namespace std;
 #define rep(i,a,n) for (int i=a;i<n;i++)
@@ -25,6 +24,7 @@ ll gcd(ll a,ll b) { return b?gcd(b,a%b):a;}
 const int N=111;
 int a[N][N][N];
 int n,q;
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/3%E6%AC%A1%E5%85%83%E7%B4%AF%E7%A9%8D%E5%92%8C.cpp
 int main() {
 	scanf("%d",&n);
     //　ここ参考になる. 3次元累積和

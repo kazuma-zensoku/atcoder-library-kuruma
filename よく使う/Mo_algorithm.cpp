@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/Mo_algorithm.cpp
 #ifndef ONLINE_JUDGE
 #define _GLIBCXX_DEBUG 
 #endif
@@ -136,6 +135,7 @@ ll N, M;
 // Mo's algorithm
 // https://nyaannyaan.github.io/library/misc/mo.hpp.html
 // https://atcoder.jp/contests/abc293/tasks/abc293_g
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/Mo_algorithm.cpp
 struct Mo {
     int width;
     vector<int> left, right, order;

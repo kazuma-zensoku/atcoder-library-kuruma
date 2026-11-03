@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/LIS.cpp
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -7,6 +6,7 @@ using ll = long long;
 
 // https://qiita.com/drken/items/68b8503ad4ffb469624c
 // 最長増加部分列の長さを求める
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/LIS.cpp
 int LIS(const vector<long long> &a) {
     int N = (int)a.size();
     vector<long long> dp(N, INF);

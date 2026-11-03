@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E6%92%B9%E4%B9%B1%E9%A0%86%E5%88%97_%E3%83%A1%E3%83%93%E3%82%A6%E3%82%B9.cpp
 #ifndef ONLINE_JUDGE
 #define _GLIBCXX_DEBUG 
 #endif
@@ -140,6 +139,7 @@ ll factorial(ll n) {
     }
     return res;
 }
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E6%92%B9%E4%B9%B1%E9%A0%86%E5%88%97_%E3%83%A1%E3%83%93%E3%82%A6%E3%82%B9.cpp
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);

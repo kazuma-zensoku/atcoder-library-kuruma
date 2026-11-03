@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/gcd%E7%95%B3%E3%81%BF%E8%BE%BC%E3%81%BF.cpp
 // AGC 038 C - LCMs
 // https://atcoder.jp/contests/agc038/tasks/agc038_c
 
@@ -64,6 +63,7 @@ vector<long long> sieve() {
     return res;
 }
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/gcd%E7%95%B3%E3%81%BF%E8%BE%BC%E3%81%BF.cpp
 vc<mint> zeta(vc<mint> a) {
     vc<mint> res = a;
     for (int p : primes) { // 素数

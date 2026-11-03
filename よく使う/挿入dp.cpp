@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E6%8C%BF%E5%85%A5dp.cpp
 #include <iostream>
 #include <vector>
 #include <numeric>
@@ -7,6 +6,7 @@ using namespace std;
 
 const int MOD = 1e9 + 7;
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E6%8C%BF%E5%85%A5dp.cpp
 int main() {
     int N, K;
     cin >> N >> K;

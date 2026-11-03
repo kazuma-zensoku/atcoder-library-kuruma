@@ -1,10 +1,10 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/unionfind_weighted.cpp
 #include <iostream>
 #include <vector>
 #include <numeric>
 using namespace std;
 
 template <typename T>
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/unionfind_weighted.cpp
 class WeightedUnionFind {
 private:
     vector<int> parent;

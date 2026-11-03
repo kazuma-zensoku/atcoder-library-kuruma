@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E5%B0%BA%E5%8F%96%E3%82%8A%E6%B3%95.cpp
 #ifndef ONLINE_JUDGE
 #define _GLIBCXX_DEBUG 
 #endif
@@ -176,6 +175,7 @@ void vv_cout(const vector<string>& v) {
     ********************************************************** ここまでテンプレ **********************************************************
 */
 ll X, Y;
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E5%B0%BA%E5%8F%96%E3%82%8A%E6%B3%95.cpp
 ll f(vl &a) { // 条件を満たす最大の長さ 外側は満たさない
     ll N = a.size();
     ll res = N*(N+1)/2; 

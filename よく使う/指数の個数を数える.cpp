@@ -1,4 +1,3 @@
-// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E6%8C%87%E6%95%B0%E3%81%AE%E5%80%8B%E6%95%B0%E3%82%92%E6%95%B0%E3%81%88%E3%82%8B.cpp
 #include <bits/stdc++.h>
 #include <atcoder/all>
 using namespace atcoder;
@@ -38,6 +37,7 @@ ll N, K;
 vector<int> isp;
 
 
+// AtCoder reference URL: https://github.com/kazuma-zensoku/atcoder-library-kuruma/blob/main/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86/%E6%8C%87%E6%95%B0%E3%81%AE%E5%80%8B%E6%95%B0%E3%82%92%E6%95%B0%E3%81%88%E3%82%8B.cpp
 void sieve(ll N) {
     for (int i = 2; i <= N; i++) {
         if (isp[i] == 0) { // iが素数なら
